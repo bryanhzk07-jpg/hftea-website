@@ -12,7 +12,6 @@ const dictionary = {...dataTranslations, ...uiTranslations};
 for (const name of ['廿四味','五花茶','竹蔗茅根','夏枯草']) {
   dictionary[name + '人格'] = dataTranslations[name] + ' Personality';
 }
-dictionary['HFTea 為你解開疑惑'] = 'HFTea Clear Out Your Uncertainty';
 const escape = text => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const pattern = new RegExp(Object.keys(dictionary).sort((a,b) => b.length-a.length).map(escape).join('|'), 'g');
 

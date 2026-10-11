@@ -31,11 +31,11 @@ function textBox(c,text,x,y,w,h,{size=32,min=18,weight=400,maxLines=3,lineHeight
 export async function makeShareCanvas(t){
  const english=getLanguage()==='en';
  const copy={
-  header:translate('鴻福堂 · HFT幫你了解自己'),read:translate('你嘅狀態已讀'),name:translate(t.name+'人格'),type:translate(t.type),
+  header:translate('鴻福堂 · 飲涼茶 唔使矇查查'),read:translate('你嘅狀態已讀'),name:translate(t.name+'人格'),type:translate(t.type),
   status:translate('今日狀態')+(english?': ':'：')+translate(t.status),quote:translate(t.quote),signalLabel:translate('我嘅生活訊號'),signal:translate(t.signal),
   words:t.words.map(word=>translate(word)).join('  ·  '),
   share:translate('我嘅身體訊號係')+' '+translate(t.mode)+(english?', ':'，')+translate('你嘅呢？'),
-  slogan:translate('HFTea 為你解開疑惑'),tags:english?'#HFTea  #KnowYourself  #HungFookTong':'#HFTea  #HFT幫你了解自己  #鴻福堂',
+  slogan:translate('飲涼茶 唔使矇查查'),tags:english?'#HFTea  #KnowYourself  #HungFookTong':'#HFTea  #飲涼茶唔使矇查查  #鴻福堂',
   disclaimer:translate('只供娛樂，唔構成醫療建議。品牌活動概念示範。')
  };
  if(document.fonts)await document.fonts.ready;

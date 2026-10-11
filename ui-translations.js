@@ -1,18 +1,15 @@
 // Shared interface copy. Data-driven questions, personas and scenarios are
 // translated separately; keys here match the original Traditional Chinese.
 export const uiTranslations = {
-  'HFT幫你了解自己': 'HFT Helps You Understand Yourself',
-  'HFTea 為你解開疑惑': 'HFTea Clear Out Your Uncertainty',
-  '鴻福堂・HFT幫你了解自己': 'Hung Fook Tong · HFT Helps You Understand Yourself',
-  'MB “tea” I｜鴻福堂・HFT幫你了解自己': 'MB “tea” I | Hung Fook Tong · HFT Helps You Understand Yourself',
-  'HFT幫你了解自己。HFTea 為你解開疑惑。10 題，搵到你嘅 MB “tea” I 茶人格。': 'HFT Helps You Understand Yourself. HFTea Clear Out Your Uncertainty. Discover your MB “tea” I tea personality in 10 questions.',
-  'HFT幫你了解自己。HFTea Clear Out Your Uncertainty。10 題，搵到你嘅 MB “tea” I 茶人格。': 'HFT Helps You Understand Yourself. HFTea Clear Out Your Uncertainty. Discover your MB “tea” I tea personality in 10 questions.',
-  'HFTea 為你解開疑惑。HFT幫你了解自己，用 1 分鐘，讀懂今日嘅自己。': 'HFTea Clear Out Your Uncertainty. HFT Helps You Understand Yourself. Take a minute to tune in to yourself today.',
-  'HFTea Clear Out Your Uncertainty。HFT幫你了解自己，用 1 分鐘，讀懂今日嘅自己。': 'HFTea Clear Out Your Uncertainty. HFT Helps You Understand Yourself. Take a minute to tune in to yourself today.',
+  '飲涼茶 唔使矇查查': 'HFtea Clear up your uncertainty',
+  '鴻福堂・飲涼茶 唔使矇查查': 'Hung Fook Tong · HFtea Clear up your uncertainty',
+  'MB “tea” I｜鴻福堂・飲涼茶 唔使矇查查': 'MB “tea” I | Hung Fook Tong · HFtea Clear up your uncertainty',
+  '飲涼茶 唔使矇查查。10 題，搵到你嘅 MB “tea” I 茶人格。': 'HFtea Clear up your uncertainty. Discover your MB “tea” I tea personality in 10 questions.',
+  '飲涼茶 唔使矇查查。用 1 分鐘，讀懂今日嘅自己。': 'HFtea Clear up your uncertainty. Take a minute to tune in to yourself today.',
 
   // Header, loading screen, footer and accessibility.
   '跳到主要內容': 'Skip to main content',
-  '鴻福堂 HFT幫你了解自己 首頁': 'Hung Fook Tong · HFT Helps You Understand Yourself · Home',
+  '鴻福堂 飲涼茶 唔使矇查查 首頁': 'Hung Fook Tong · HFtea Clear up your uncertainty · Home',
   '鴻福堂 HUNG FOOK TONG': 'HUNG FOOK TONG',
   '主要導覽': 'Main navigation',
   '茶人格圖鑑': 'Tea Personalities',

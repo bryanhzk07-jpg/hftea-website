@@ -1,4 +1,4 @@
-# HFTea — HFT幫你了解自己
+# HFTea — 飲涼茶 唔使矇查查
 
 [Open the website / 打開網站](https://bryanhzk07-jpg.github.io/hftea-website/)
 
